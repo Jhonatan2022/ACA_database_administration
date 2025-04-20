@@ -12,3 +12,5 @@
 ![](img/insert_data.png)
 ![](img/verified_data.png)
 ![](img/diagramDB.png)
+![](img/create_stored_procedure.png)
+![](img/use_stored_procedure.png)
