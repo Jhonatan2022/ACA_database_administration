@@ -20,3 +20,12 @@ FLUSH PRIVILEGES;  -- Recarga los privilegios para que los cambios tomen efecto
 -- Muestra los privilegios asignados al usuario
 SHOW GRANTS FOR 'usuario1'@'localhost';
 SHOW GRANTS FOR 'usuario2'@'localhost';
+
+-- Asignamos los procesos almacenados a cada usuario
+GRANT EXECUTE ON PROCEDURE TiendaDB.NuevaFactura TO 'usuario2'@'localhost';
+GRANT EXECUTE ON PROCEDURE TiendaDB.VentasPorCliente TO 'usuario2'@'localhost';
+GRANT EXECUTE ON PROCEDURE TiendaDB.ConsultarFacturasCliente TO 'usuario2'@'localhost';
+
+-- Procedimiento para empleado
+GRANT EXECUTE ON PROCEDURE TiendaDB.ConsultarFacturasCliente TO 'usuario1'@'localhost';
+

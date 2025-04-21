@@ -48,4 +48,3 @@ BEGIN
     WHERE a.ID_Cliente = cliente_id;
 END$$
 DELIMITER ;
-
