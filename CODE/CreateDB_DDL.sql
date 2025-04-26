@@ -57,4 +57,3 @@ CREATE TABLE Ventas (
     FOREIGN KEY (ID_Factura) REFERENCES Facturas (ID_Factura) ON DELETE CASCADE,
     FOREIGN KEY (ID_Producto) REFERENCES Productos (ID_Producto) ON DELETE SET NULL
 );
-

@@ -16,10 +16,11 @@ BEGIN
     VALUES (NEW.ID_Factura, NOW());
 END$$
 
-DELIMITER ;
+DELIMITER;
 
 -- Trigger para evitar la eliminación de un producto con ventas registradas
 DELIMITER $$
+
 CREATE TRIGGER DeleteProducto
 BEFORE DELETE ON Productos
 FOR EACH ROW
@@ -31,4 +32,5 @@ BEGIN
         SET MESSAGE_TEXT = 'No puedes eliminar un producto que tiene ventas registradas.';
     END IF;
 END$$
-DELIMITER ;
+
+DELIMITER;
