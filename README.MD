@@ -66,4 +66,4 @@ Este repositorio contiene el desarrollo de una base de datos para una tienda, qu
 
 ## 🎥 Video Explicativo
 
-[Ver video en YouTube](https://www.youtube.com/enlace-de-tu-video)
+[Ver video en YouTube](https://youtu.be/T6qczH5vFa4?si=kkAl6W4nC-k9PaTM)
