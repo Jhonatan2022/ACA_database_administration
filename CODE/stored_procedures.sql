@@ -1,6 +1,6 @@
 -- PROCEDIMIENTO 1: Obtener ventas por cliente
 USE TiendaDB;
-
+ 
 DELIMITER $$
 
 CREATE PROCEDURE VentasPorCliente(IN p_ID_Cliente INT)

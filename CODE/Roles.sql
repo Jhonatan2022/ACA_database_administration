@@ -1,6 +1,6 @@
 CREATE ROLE 'empleado';
 -- permisos limitados (solo lectura)
-CREATE ROLE 'gerente';
+CREATE ROLE 'gerente'; 
 -- permisos completos para gestionar datos
 
 GRANT SELECT ON tendadb.* TO 'empleado';

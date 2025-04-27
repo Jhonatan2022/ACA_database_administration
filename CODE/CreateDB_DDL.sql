@@ -23,7 +23,7 @@ CREATE TABLE Facturas (
     FOREIGN KEY (ID_Cliente) REFERENCES Clientes (ID_Cliente) ON DELETE CASCADE
 );
 
--- CATEGORIAS
+-- CATEGORIAS 
 CREATE TABLE Categorias (
     ID_Categoria INT PRIMARY KEY,
     Descripcion VARCHAR(100)

@@ -1,6 +1,6 @@
 USE TiendaDB;
 
--- INSERTANDO CLIENTES
+-- INSERTANDO CLIENTES 
 INSERT INTO Clientes (ID_Cliente, Nombre, Direccion, Telefono) VALUES
 (1, 'Carlos Martínez', 'Calle 12 #34-56', '3101234567'),
 (2, 'Ana Torres', 'Carrera 7 #89-12', '3202345678'),

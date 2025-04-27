@@ -66,8 +66,4 @@ Este repositorio contiene el desarrollo de una base de datos para una tienda, qu
 
 ## 🎥 Video Explicativo
 
-<!-- > Próximamente se incluirá un video demostrativo donde se ejecuta y valida cada punto del desarrollo. -->
-
-<!-- --- -->
-
-<!-- ¿Te gustaría que agregue una tabla de contenido o algún badge (como licencia, versión, etc.)? -->
+[Ver video en YouTube](https://www.youtube.com/enlace-de-tu-video)

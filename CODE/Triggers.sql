@@ -3,7 +3,7 @@ CREATE TABLE LogFacturas (
     ID_Log INT PRIMARY KEY AUTO_INCREMENT,
     ID_Factura INT,
     FechaCreacion DATETIME
-);
+); 
 
 -- Este trigger se ejecuta  desues de insertar una factura y la inserta en la tabla Log
 DELIMITER $$
